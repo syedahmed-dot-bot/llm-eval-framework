@@ -1,0 +1,8 @@
+{"id":"qa-1","task":"qa","input":"Who wrote 'Pride and Prejudice'?","reference":"Jane Austen"}
+{"id":"qa-2","task":"qa","input":"What is the capital of France?","reference":"Paris"}
+{"id":"qa-3","task":"qa","input":"Chemical symbol for sodium?","reference":"Na"}
+{"id":"qa-4","task":"qa","input":"In computing, what does 'CPU' stand for?","reference":"Central processing unit"}
+{"id":"qa-5","task":"qa","input":"Year the Apollo 11 Moon landing occurred?","reference":"1969"}
+{"id":"qa-6","task":"qa","input":"Largest planet in our solar system?","reference":"Jupiter"}
+{"id":"qa-7","task":"qa","input":"What is the square root of 81?","reference":"9"}
+{"id":"qa-8","task":"qa","input":"Language primarily spoken in Brazil?","reference":"Portuguese"}
