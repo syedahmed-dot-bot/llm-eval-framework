@@ -58,5 +58,12 @@ def main():
 
     print("\nSmoke check OK: datasets load and prompts render.")
 
+    print(exact_match("Paris", "paris"))                 # 1.0
+    print(exact_match("The capital is Paris.", "Paris")) # 0.0
+
+    print(round(rouge_l("The capital is Paris.", "Paris"), 3)) # > 0.0 (likely ~0.3–0.5)
+
+    print(round(sbert_cosine("The capital is Paris.", "Paris"), 3)) # high-ish, ~0.7–0.9
+
 if __name__ == "__main__":
     main()

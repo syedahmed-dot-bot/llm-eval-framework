@@ -25,3 +25,9 @@
 - Added `scripts/smoke_check.py` to load JSONL datasets and render prompts using fixed templates.
 - Purpose: validate schema and prompt rendering before any model/metrics code.
 - Outcome: QA and Summarization examples render correctly; ready to integrate free HF model next.
+
+## 2025-08-27 — Step 2A: Metrics implemented
+- Added `src/metrics/lexical.py` with `_normalize`, `exact_match`, `rouge_l`.
+- Added `src/metrics/semantic.py` with `sbert_cosine` using `all-MiniLM-L6-v2`.
+- Rationale: EM for strict QA correctness; ROUGE-L and SBERT for paraphrase-tolerant scoring.
+- Outcome: Ready to wire metrics into evaluator (Step 2C) after model integration (2B).
